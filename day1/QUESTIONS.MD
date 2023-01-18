@@ -2,7 +2,7 @@
 
 >Stable Memory: 48GB
 >Heap Memory: 4GB
-Source: https://forum.dfinity.org/t/increased-canister-smart-contract-memory/6148/140?u=clement
+>Source: https://forum.dfinity.org/t/increased-canister-smart-contract-memory/6148/140?u=clement
 
 ## 2. What is the issue with the following code sample?
 ```
