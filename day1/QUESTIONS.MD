@@ -1,10 +1,10 @@
-##1. How much is the current memory capacity of a canister?
+## 1. How much is the current memory capacity of a canister?
 
 >Stable Memory: 48GB
 Source: https://forum.dfinity.org/t/increased-canister-smart-contract-memory/6148/140?u=clement
 >Heap Memory: 4GB
 
-##2. What is the issue with the following code sample?
+## 2. What is the issue with the following code sample?
 ```
 actor {
   let counter : Nat = 0;
@@ -20,7 +20,7 @@ actor {
 **Solution:**
 >1. Replace `let` with `var`.
 
-##3. What is the issue with the following code sample?
+## 3. What is the issue with the following code sample?
 ```
 actor {
   var message : Text = 0;
@@ -43,6 +43,6 @@ actor {
 >1. Remove `query` statement.
 >2. Remove `return` statement.
 
-##4. False or True: we can remove the keyword async for return argument of a query function since queries are faster to answer.
+## 4. False or True: we can remove the keyword async for return argument of a query function since queries are faster to answer.
 
 >False
