@@ -5,13 +5,13 @@
 
 ## 2. What is the subnet of the canister with the id: mwrha-maaaa-aaaab-qabqq-cai? How much nodes are running this subnet?
 
->`pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe`
->`16 Nodes`
+- `pae4o-o6dxf-xki7q-ezclx-znyd6-fnk6w-vkv5z-5lfwh-xym2i-otrrw-fqe`
+- `16 Nodes`
 
 ## 3. I have a neuron with 1O ICPs locked with a dissolve delay of 4 years - my neuron has been locked for 2 years. What is my expected voting power?
 
->(ICP staked + maturity staked) x Dissolve Delay Bonus x Age Bonus
->(10 + 0) * 1.25 x 1.12 = 14.0 voting power
+- (ICP staked + maturity staked) x Dissolve Delay Bonus x Age Bonus
+- (10 + 0) * 1.25 x 1.12 = 14.0 voting power
 
 ## 4. What is wrong with the following code?
 ```
@@ -25,9 +25,9 @@ actor {
 }
 ```
 
->1. `import Nat "mo:base/nat";` should be added
->2. Declared variables `n` and `t` are redundant.
->3. Can be turned into a query call.
+1. `import Nat "mo:base/nat";` should be added
+2. Declared variables `n` and `t` are redundant.
+3. Can be turned into a query call.
 
 ```
 import Nat "mo:base/Nat";
@@ -50,9 +50,9 @@ actor {
  
 }
 ```
->1. `var` is used for mutable variables. Since the function doesn't expect to change the value of `languages`, `var` can be replaced to `let`.
->2. Can be turned into a query call
->3. Remove `var` in `async [var Text]
+1. `var` is used for mutable variables. Since the function doesn't expect to change the value of `languages`, `var` can be replaced to `let`.
+2. Can be turned into a query call
+3. Remove `var` in `async [var Text]
 
 ```
 actor {
@@ -78,7 +78,7 @@ actor {
 }
 ```
 
->Missing `Import Array mo:base/Array";`
+1. Missing `Import Array mo:base/Array";`
 
 ```
 import Array "mo:base/Array";
