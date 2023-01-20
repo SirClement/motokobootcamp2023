@@ -1,7 +1,7 @@
 ## 1. Who controls the ledger canister?
 
->Either the controller principals or other canisters
->Also the NNS
+- Either the controller principals or other canisters
+- Also the NNS
 
 ## 2. What is the subnet of the canister with the id: mwrha-maaaa-aaaab-qabqq-cai? How much nodes are running this subnet?
 
