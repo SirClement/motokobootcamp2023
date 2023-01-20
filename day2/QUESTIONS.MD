@@ -10,7 +10,8 @@
 
 ## 3. I have a neuron with 1O ICPs locked with a dissolve delay of 4 years - my neuron has been locked for 2 years. What is my expected voting power?
 
->14
+>(ICP staked + maturity staked) x Dissolve Delay Bonus x Age Bonus
+>(10 + 0) * 1.25 x 1.12 = 14.0 voting power
 
 ## 4. What is wrong with the following code?
 ```
